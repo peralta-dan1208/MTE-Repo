@@ -14,8 +14,7 @@ nav {
 	font-family: "Share Tech", sans-serif;
 	font-size: 40px;
 	color: #ffffff !important;
-	letter-spacing: 2px;
-	
+	letter-spacing: 2px;	
 }
 
 .nav-link {
@@ -28,8 +27,9 @@ nav {
 	transform: translateY(-1px);
 }
 
-.rightIcons{
-		
+.badge{
+	font-size: 0.95rem;
+  	padding: 0.2em 0.4em;
 }
 
 .rightIcons i {

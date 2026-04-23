@@ -18,26 +18,29 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 	<div class="container">
+		<button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 		<a class="navBrand navbar-brand" href="#">NERD*SHOP</a>
-	<div class="collapse navbar-collapse" id="navbarNav">
-		<ul class="navbar-nav mx-auto">
-			<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+			</ul>
+		</div>
+		<ul class="navbar-nav ms-auto align-items-center">
+			<li class="nav-item">
+				<a class="nav-link" href="#">
+					<i class="bi bi-basket2 mx-2"></i>
+					<i class="bi bi-bell-fill mx-2"></i>
+					<i class="bi bi-person-fill mx-2"></i>
+					<i class="bi bi-gear-fill mx-2"></i>
+				</a>
+			</li>
 		</ul>
 	</div>
-	<ul class="navbar-nav ms-auto">
-		<li class="nav-item rightIcons">
-			<a class="nav-link" href="#">
-				<i class="bi bi-basket2 mx-2"></i>
-				<i class="bi bi-bell-fill mx-2"></i>
-				<i class="bi bi-person-fill mx-2"></i>
-				<i class="bi bi-gear-fill mx-2"></i>
-			</a>
-		</li>
-	</ul>
-</div>
 </nav>
 
 <!-- BODY -->
@@ -160,6 +163,6 @@
 		</div>
 	</div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
