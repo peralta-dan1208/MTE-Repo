@@ -3,12 +3,163 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./index.css">
 	<title>MTE</title>
 </head>
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+	<div class="container">
+		<a class="navBrand navbar-brand" href="#">NERD*SHOP</a>
+	<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav mx-auto">
+			<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+		</ul>
+	</div>
+	<ul class="navbar-nav ms-auto">
+		<li class="nav-item rightIcons">
+			<a class="nav-link" href="#">
+				<i class="bi bi-basket2 mx-2"></i>
+				<i class="bi bi-bell-fill mx-2"></i>
+				<i class="bi bi-person-fill mx-2"></i>
+				<i class="bi bi-gear-fill mx-2"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+</nav>
 
+<!-- BODY -->
+<section class="text-white justify-content-start heroBackdrop" id="hero">
+	<div class="container mt-5 heroText">
+		<h1 class="display-3">Shop by Gamers, <br>made for Gamers</h1>
+		<p class="lead">Discover products made by the official developers or fan-made ones!<br>All from your favorite games!</p>
+		<a class="btn btn-light btn-lg">Shop Now</a>
+	</div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="container py-5">
+	<h2 class="text-center mb-5 text-white">Featured Products</h2>
+	<div class="row g-4">
+		<div class="col-12 col-sm-6 col-md-3">
+			<div class="product-card">
+				<img src="./images/miyabimouse.png" class="img-fluid rounded" alt="Product">
+				<div class="product-info py-2">
+					<h5>Gaming Mouse - Miyabi</h5>
+					<p>$29.99</p>
+				</div>
+				<div class="product-overlay">
+					<button class="btn btn-light btn-sm mt-2">View Product</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-3">
+			<div class="product-card">
+				<img src="./images/keqingkb.png" class="img-fluid rounded" alt="Product">
+				<div class="product-info py-2">
+					<h5>Mechanical Keyboard - Keqing</h5>
+					<p>$59.99</p>
+				</div>
+				<div class="product-overlay">
+					<button class="btn btn-light btn-sm mt-2">View Product</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-3">
+			<div class="product-card">
+				<img src="./images/sparkleplush.png" class="img-fluid rounded" alt="Product">
+				<div class="product-info py-2">
+					<h5>Sparkle Doll</h5>
+					<p>$39.99</p>
+				</div>
+				<div class="product-overlay">
+					<button class="btn btn-light btn-sm mt-2">View Product</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-3">
+			<div class="product-card">
+				<img src="./images/paimonchair.jpg" class="img-fluid rounded" alt="Product">
+				<div class="product-info py-2">
+					<h5>Gaming Chair - Paimon</h5>
+					<p>$129.99</p>
+				</div>
+				<div class="product-overlay">
+					<button class="btn btn-light btn-sm">View Product</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="text-center mt-5">
+		<a href="#" class="btn btn-outline-light btn-lg shop-btn">
+			View All Products
+		</a>
+	</div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="py-5" id="newsletter">
+	<div class="container">
+		<h2 class="text-center text-light">Subscribe to our Newsletter for Updates!</h2>
+		<p class="text-center text-light">Susbscribe now to receive shop updates and good deals just for you!</p>
+		<form class="d-flex justify-content-center newsletter-form">
+			<input type="email" class="flex-grow focus:border-accent" placeholder="Enter your email" required >
+			<button class="btn btn-light ms-2 newsletter-btn">
+				Subscribe
+			</button>
+		</form>
+	</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer mt-5 py-5 text-white">
+	<div class="container">
+		<div class="row g-4">
+
+			<div class="col-md-4">
+				<h3 class="footer-brand mb-3">NERD*SHOP</h3>
+				<p class="text-light">
+					Built for gamers, by gamers. Discover the best gear and accessories for your setup.
+				</p>
+			</div>
+			<div class="col-md-4">
+				<h5>Quick Links</h5>
+				<ul class="list-unstyled">
+					<li><a href="#" class="footer-link">Home</a></li>
+					<li><a href="#" class="footer-link">Products</a></li>
+					<li><a href="#" class="footer-link">Services</a></li>
+					<li><a href="#" class="footer-link">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-4">
+				<h5>Connect</h5>
+				<div class="d-flex gap-3 mt-3">
+					<a href="#" class="footer-icon"><i class="bi bi-facebook"></i></a>
+					<a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
+					<a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+					<a href="#" class="footer-icon"><i class="bi bi-discord"></i></a>
+				</div>
+			</div>
+		</div>
+		<hr class="mt-4 border-secondary">
+		<div class="text-center text-light">
+			© 2026 NERD*SHOP. All rights reserved.
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>

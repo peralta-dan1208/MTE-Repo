@@ -1,0 +1,118 @@
+body {
+	background-color: #0f1115;
+	color: #eaeaea;
+}
+
+nav {
+	border-bottom: 1px solid rgba(255,255,255,0.05);
+	font-size: 24px;
+	background-color: rgba(20, 24, 36, 0.8);
+  	backdrop-filter: blur(8px);
+}
+
+.navBrand {
+	font-family: "Share Tech", sans-serif;
+	font-size: 40px;
+	color: #ffffff !important;
+	letter-spacing: 2px;
+	
+}
+
+.nav-link {
+	color: #cfcfcf !important;
+	transition: 0.3s ease;
+}
+
+.nav-link:hover {
+	color: #ffffff !important;
+	transform: translateY(-1px);
+}
+
+.rightIcons{
+		
+}
+
+.rightIcons i {
+	color: #cfcfcf;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.rightIcons i:hover {
+	color: #ffffff;
+	transform: scale(1.1);
+}
+
+#hero {
+	position: relative;
+	height: 900px;
+
+	margin-top: 88px;
+
+	display: flex;
+	align-items: center;
+
+	background-image:
+	linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.3)),
+	url("./images/bg-1.png");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#newsletter {
+	position: relative;
+	height: 500px;
+
+	display: flex;
+	align-items: center;
+
+	background-image:
+	linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+	url("./images/bg-2.png");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#newsletter input {
+	width: 350px;
+}
+
+.product-info p {
+	margin-bottom: 5px;
+}
+
+.product-info h5 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.heroText h1 {
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.heroText p {
+	color: #d0d0d0;
+}
+
+/* Button styling */
+.btn-light {
+	background-color: #ffffff;
+	color: #0f1115;
+	border: none;
+	transition: 0.3s ease;
+}
+
+.btn-light:hover {
+	background-color: #dcdcdc;
+	transform: translateY(-2px);
+}
+
+.container {
+	max-width: 1100px;
+}
